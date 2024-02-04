@@ -2,6 +2,10 @@ package KenzieHelloWorld;
 
 object KenzieHelloWorld {
   def main(args: Array[String]) = {
-    println("Hello, kenzie");
+    println()
+
+    (1 to 100).foreach(_ => println("Hello, Kenzie!"))
+
+    println()
   }
 }
